@@ -1,0 +1,146 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.page_flexbox {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.flexbox_container_1 {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.flexbox_container_2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.flexbox_container_3 {
+    background-color: #E5E7EB;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flexbox_container_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flexbox_blue {
+    background-color: #3882F6;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.flexbox_action {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.flexbox_container_3 h1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2 {
+    font-weight: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.navlink {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-weight: bold;
+    flex: 1;
+    flex-basis: 0;
+}
+
+.hero h1 {    
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+ .header_logo {
+    font-size: 24px;
+    color: #F9FAF8;
+ }
+
+.header_text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.container_header_text {
+    display: flex;
+}
+
+.img_container {
+    display: flex;
+    justify-content: center;
+}
+
+.img_element_1 {
+    margin: 20px;
+    height: 70px;
+    width: 70px;
+    border: 3px solid #333;
+}
+
+.img_element_2 {
+    margin: 20px;
+    height: 70px;
+    width: 70px;
+    border: 3px solid #333;
+}
+
+.img_element_3 {
+    margin: 20px;
+    height: 70px;
+    width: 70px;
+    border: 3px solid #333;
+}
+
+.img_element_4 {
+    margin: 20px;
+    height: 70px;
+    width: 70px;
+    border: 3px solid #333;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    display: flex;
+}
